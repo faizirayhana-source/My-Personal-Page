@@ -1,0 +1,140 @@
+/* Page background and font  */
+#my-page {
+    background-color: #F5F0FF;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    margin: 0;
+}
+
+/* header background and spacing */
+header {
+    background-color: #E8DDFB;
+    text-align: center;
+    padding: 35px 20px;
+    border-radius: 18px;
+    margin-bottom: 30px;
+}
+
+/* Main heading style */
+h1 {
+    color: #30205C;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+/* Subheading style */
+h2 {
+    color: #7546C8;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid #DCC8FA;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* Paragraph text color */
+.my-text {
+    color: #5b41a3;
+}
+
+/* GitHub link */
+a {
+    display: inline-block;
+    background-color: #7546C8;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 25px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+/* GitHub link hover */
+a:hover {
+    background-color: #56309B;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 12px rgba(80, 50, 120, 0.2);
+}
+
+/* Main content area */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+/* Personal page sections */
+section {
+    background-color: #FFFFFF;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(80, 50, 120, 0.18);
+}
+
+/* Unordered list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Ordered list spacing */
+ol {
+    padding-left: 15px;
+}
+
+/* List item appearance */
+li {
+    background-color: #F5F0FF;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-left: 4px solid #A78BFA;
+    color: #44404F;
+    font-size: 16px;
+}
+
+/* List item hover effect */
+li:hover {
+    background-color: #E8DDFB;
+    transform: translateX(3px);
+    cursor: pointer;
+}
+
+/* Footer background and spacing */
+footer {
+    background-color: #30205C;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+/* Responsive mobile styling */
+@media (max-width: 600px) {
+    #my-page {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    section {
+        padding: 18px;
+    }
+    header {
+        padding: 25px  15px;
+    }
+    a {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+    li {
+        font-size: 10px;
+    }
+}
